@@ -4,6 +4,7 @@ export class CreateItemDto {
     @IsNotEmpty()
     name: string;
     
+    @IsNumber()
     price: number;
 
     @IsNotEmpty()
